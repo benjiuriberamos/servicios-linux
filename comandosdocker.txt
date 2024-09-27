@@ -1,0 +1,17 @@
+Listar imagenes:
+docker imager:
+
+Descargar una imagen:
+docker pull node
+docker pull node node:18
+
+Remover una imagen
+docker image -rm node:18
+
+Para crear un contenedor se requiere una imagen
+#Descargamos el contenedor
+docker pull mongo
+#Creamos el contenedor
+docker create mongo
+#iniciamos el contenedor
+docker start id_del_contenedor  
